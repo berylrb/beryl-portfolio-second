@@ -1,0 +1,74 @@
+/* oatmeal: #e5ddd3
+oatmeal lighter: #e6e1db
+moss: #53655f
+dark moss: #313b38
+burnt-orange: #bc6834
+navy: #2c3f55
+silk-pink: #c9ada9 */
+
+/* 
+font-family: 'Josefin Sans', sans-serif; -- 200, 300, 400
+font-family: 'Yeseva One', cursive;
+ */
+
+body {
+  background-color: #53655f;
+}
+
+.bg-wrapper {
+  position: relative;
+  display: flex;
+  top: -26vh;
+  left: -2vw;
+  z-index: -1;
+  color: #e6e1db;
+  animation: fadein 8s;
+}
+
+.land-page-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 17vh;
+
+
+}
+
+.beryl-name {
+  font-family: 'Yeseva One', cursive;
+  font-size: 6vh;
+  color: #e5ddd3;
+}
+
+
+.meet-you {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
+  font-size: 2.5vh;
+  margin-top: -2.9vh;
+  color: #e6e1db;
+  animation: fadein 8s;
+}
+
+  @keyframes fadein {
+    from { opacity: 0}
+    to   { opacity: 1}
+  }
+
+.home-to-about {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
+  font-size: 1.6vh;
+  text-decoration: none;
+  margin-top: -1vh;
+  padding: .6vh;
+  color: #e6e1db;
+  border: #e6e1db 1.4px solid;
+  background-color: #53655f;
+}
+
+.home-to-about:hover {
+  /* background-color: #313b38; */
+}
